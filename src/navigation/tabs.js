@@ -1,12 +1,12 @@
 import { View, Text } from 'react-native'
 import React from 'react'
 
-const Home = () => {
+const tabs = () => {
   return (
     <View>
-      <Text>This is Where I Belong!!!</Text>
+      <Text>tabs</Text>
     </View>
   )
 }
 
-export default Home
+export default tabs

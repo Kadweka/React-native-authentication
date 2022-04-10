@@ -1,6 +1,6 @@
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View } from 'react-native';
-import Navigation from './src/Screens/Navigation/Navigation';
+import Navigation from './src/navigation';
 import React from 'react'
 export default function App() {
   return (
