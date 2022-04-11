@@ -4,6 +4,7 @@ import React from 'react'
 import EventsScreen from '../screens/bottomtabscreens/EventsScreen'
 import SettingsScreen from '../screens/bottomtabscreens/SettingsScreen'
 import { NavigationContainer } from '@react-navigation/native'
+import  FontAwesome  from 'react-native-vector-icons/FontAwesome';
 import MyEvents from '../screens/bottomtabscreens/MyEvents'
 import PostEventsScreen from '../screens/bottomtabscreens/PostEventsScreen'
 import InvitedEventsScreen from '../screens/bottomtabscreens/InvitedEventsScreen'
@@ -25,11 +26,25 @@ const Tab= () => {
    headerShown: false}} 
   
  >
-     <Tabs.Screen name="Events" component={EventsScreen}/>
-     <Tabs.Screen name="Mine" component={MyEvents}/>
-     <Tabs.Screen name="post" component={PostEventsScreen}/>
-     <Tabs.Screen name="Invited" component={InvitedEventsScreen}/>
-     <Tabs.Screen name="Settings" component={SettingsScreen}/>
+     <Tabs.Screen name="Events" component={EventsScreen}
+     options={{tabBarIcon: ({ color, size }) => (
+          <FontAwesome name="home" color={color} size={26}/>)}}/>
+
+     <Tabs.Screen name="Mine" component={MyEvents}
+     options={{tabBarIcon: ({ color, size }) => (
+      <FontAwesome name="home" color={color} size={26}/>)}}/>
+
+     <Tabs.Screen name="post" component={PostEventsScreen}
+     options={{tabBarIcon: ({ color, size }) => (
+      <FontAwesome name="pluscircle" color={color} size={26}/>)}}/>
+
+     <Tabs.Screen name="Invited" component={InvitedEventsScreen}
+     options={{tabBarIcon: ({ color, size }) => (
+      <FontAwesome name="home" color={color} size={26}/>)}}/>
+
+     <Tabs.Screen name="Settings" component={SettingsScreen}
+     options={{tabBarIcon: ({ color, size }) => (
+      <FontAwesome name="home" color={color} size={26}/>)}}/>
    </Tabs.Navigator>
   )
 }
