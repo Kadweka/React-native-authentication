@@ -4,7 +4,7 @@ import React from 'react'
 const EventsScreen = () => {
   return (
     <View style={style.container}>
-      <Text>ALl Events To Come</Text>
+      <Text>All Events Posted</Text>
     </View>
   )
 }
