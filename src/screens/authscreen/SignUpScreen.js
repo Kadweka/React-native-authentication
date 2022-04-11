@@ -78,7 +78,7 @@ const SignUpScreen = ({navigation}) => {
         <Aninmatable.View>
       <Feather
         name="check-circle"
-        color="green"
+        color="#E78F8E"
         size={20}/>
         </Aninmatable.View>
         :null}
@@ -103,12 +103,12 @@ const SignUpScreen = ({navigation}) => {
       {data.secureTextEntry ?
             <Feather
         name="eye-off"
-        color="green"
+        color="#E78F8E"
         size={20}/>
         :
         <Feather
         name="eye"
-        color="green"
+        color="#E78F8E"
         size={20}/>
       }
     </TouchableOpacity>
@@ -133,30 +133,30 @@ const SignUpScreen = ({navigation}) => {
       {data.confirm_secureTextEntry ?
             <Feather
         name="eye-off"
-        color="green"
+        color="#E78F8E"
         size={20}/>
         :
         <Feather
         name="eye"
-        color="green"
+        color="#E78F8E"
         size={20}/>
       }
     </TouchableOpacity>
      </View>
     <View style={styles.button}>
-      <LinearGradient colors={['#08d4c4','#01ab9d']} style={styles.signIn}>
+      <LinearGradient colors={['#E78F8E','#E78F8E']} style={styles.signIn}>
         <Text style={[styles.textSign,{color:'#fff'}]} onPress={()=>navigation.navigate("HomeScreen")}>Sign Up</Text>
       </LinearGradient>
       <TouchableOpacity 
       onPress={()=>navigation.goBack()}
       style={[styles.signIn,{
-        borderColor:"#009387",
+        borderColor:"#E78F8E",
         borderWidth:1,
         marginTop:15
       }]}
       >
 <Text style={[styles.textSign,{
-        color:"#009387",
+        color:"#E78F8E",
       }]}>Sign In</Text>
       </TouchableOpacity>
     </View>
@@ -169,7 +169,7 @@ export default SignUpScreen
 const styles = StyleSheet.create({
   container:{
     flex:1,
-    backgroundColor:'#009387'
+    backgroundColor:'#E78F8E'
   },
   header:{
     flex:1,

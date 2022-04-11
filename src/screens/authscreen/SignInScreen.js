@@ -42,7 +42,7 @@ const SignInScreen = ({navigation}) => {
   }
   return (
    <View style={styles.container}>
-     <StatusBar backgroundColor='#009387' barStyle="light-content"/>
+     <StatusBar backgroundColor='#E78F8E' barStyle="light-content"/>
      <View style={styles.header}>
      <Text style={styles.text_header}>Welcome!</Text>
      </View>
@@ -88,30 +88,30 @@ const SignInScreen = ({navigation}) => {
       {data.secureTextEntry ?
             <Feather
         name="eye-off"
-        color="green"
+        color="#E78F8E"
         size={20}/>
         :
         <Feather
         name="eye"
-        color="green"
+        color="#E78F8E"
         size={20}/>
       }
     </TouchableOpacity>
      </View>
     <View style={styles.button}>
-      <LinearGradient colors={['#08d4c4','#01ab9d']} style={styles.signIn}>
+      <LinearGradient colors={['#E78F8E','#E78F8E']} style={styles.signIn}>
         <Text style={[styles.textSign,{color:'#fff'}]} onPress={()=>navigation.navigate("HomeScreen")}>Sign In</Text>
       </LinearGradient>
       <TouchableOpacity 
       onPress={()=>navigation.navigate("SignUpScreen")}
       style={[styles.signIn,{
-        borderColor:"#009387",
+        borderColor:"#E78F8E",
         borderWidth:1,
         marginTop:15
       }]}
       >
 <Text style={[styles.textSign,{
-        color:"#009387",
+        color:"#E78F8E",
       }]}>Sign Up</Text>
       </TouchableOpacity>
     </View>
@@ -124,7 +124,7 @@ export default SignInScreen
 const styles = StyleSheet.create({
   container:{
     flex:1,
-    backgroundColor:'#009387'
+    backgroundColor:'#E78F8E'
   },
   header:{
     flex:1,
