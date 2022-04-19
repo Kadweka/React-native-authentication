@@ -4,3 +4,5 @@ tabs
 # Look & Feel Of The App:
 
 <img src="./assets/readmfiles/img3.jpeg" width="128"/>
+<img src="./assets/readmfiles/img1.jpeg" width="128"/>
+<img src="./assets/readmfiles/img2.jpeg" width="128"/>
