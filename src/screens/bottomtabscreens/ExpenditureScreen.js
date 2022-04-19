@@ -3,7 +3,7 @@ import React from 'react'
 
 const ExpenditureScreen = () => {
   return (
-    <View>
+    <View style={styles.container}>
       <Text>ExpenditureScreen</Text>
     </View>
   )
@@ -11,4 +11,11 @@ const ExpenditureScreen = () => {
 
 export default ExpenditureScreen
 
-const styles = StyleSheet.create({})
+const styles = StyleSheet.create({
+  container:{
+    backgroundColor:'#009387',
+    flex:1,
+    alignItems:'center',
+    justifyContent:'center'
+  }
+})

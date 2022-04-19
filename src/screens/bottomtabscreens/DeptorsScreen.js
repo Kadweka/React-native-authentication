@@ -3,7 +3,7 @@ import React from 'react'
 
 const DeptorsScreen = () => {
   return (
-    <View>
+    <View style={styles.container}>
       <Text>DeptorsScreen</Text>
     </View>
   )
@@ -11,4 +11,11 @@ const DeptorsScreen = () => {
 
 export default DeptorsScreen
 
-const styles = StyleSheet.create({})
+const styles = StyleSheet.create({
+  container:{
+    backgroundColor:'#009387',
+    flex:1,
+    alignItems:'center',
+    justifyContent:'center'
+  }
+})
