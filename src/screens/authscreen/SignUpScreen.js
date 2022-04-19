@@ -6,6 +6,7 @@ import Feather from 'react-native-vector-icons/Feather';
 import * as Aninmatable from 'react-native-animatable'
 
 const SignUpScreen = ({navigation}) => {
+  
   const [data,setData] = React.useState({
     email:'',
     password:'',

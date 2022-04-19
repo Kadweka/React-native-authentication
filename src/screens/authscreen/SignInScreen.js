@@ -4,8 +4,9 @@ import { LinearGradient } from 'expo-linear-gradient';
 import FontAwesome from 'react-native-vector-icons/FontAwesome';
 import Feather from 'react-native-vector-icons/Feather';
 import * as Aninmatable from 'react-native-animatable'
-
+import auth from '../../../firebase'
 const SignInScreen = ({navigation}) => {
+
   const [data,setData] = React.useState({
     email:'',
     password:'',
