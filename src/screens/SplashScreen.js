@@ -11,7 +11,7 @@ const SplashScreen = ({navigation}) => {
      <Aninmatable.Image 
      animation='bounceIn'
      duraton="2"
-     source={require('../../assets/icons.png')} style={styles.logo}/>
+     source={require('../../assets/icons/icons.png')} style={styles.logo}/>
     </View>
     <Aninmatable.View animation='fadeInUpBig' duraton="1500" style={styles.footer}>
       <Text style={styles.title}>Stay connected with everyone!</Text>
