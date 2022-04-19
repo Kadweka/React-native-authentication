@@ -12,5 +12,5 @@ tabs
 <!-- <br/>
 <br/> -->
 <div>
-[<img src="./assets/files/video1.mp4" width="50%">](https://www.youtube.com/watch?v=Hc79sDi3f0U "Now in Android: 55")
+[<img src="./assets/files/video1.mp4" width="50%">](./assets/files/video1.mp4 "Now in Android: 55")
 </div>
