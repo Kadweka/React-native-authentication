@@ -11,7 +11,7 @@ const SplashScreen = ({navigation}) => {
      <Aninmatable.Image 
      animation='bounceIn'
      duraton="2"
-     source={require('../../assets/logo.png')}/>
+     source={require('../../assets/icons.png')} style={styles.logo}/>
     </View>
     <Aninmatable.View animation='fadeInUpBig' duraton="1500" style={styles.footer}>
       <Text style={styles.title}>Stay connected with everyone!</Text>
@@ -31,7 +31,7 @@ const SplashScreen = ({navigation}) => {
 export default SplashScreen
 
 const {height}=Dimensions.get("screen")
-const height_logo = height*0.28
+const height_logo = height*0.30
 const styles = StyleSheet.create({
   container:{
     flex:1,
