@@ -9,8 +9,8 @@ tabs
 <img src="./assets/files/img2.jpeg" width="128"/>
 <img src="./assets/files/img4.jpeg" width="128"/>
 </div>
-<br/>
-<br/>
+<!-- <br/>
+<br/> -->
 <div>
 [<img src="./assets/files/video1.mp4" width="50%">](https://www.youtube.com/watch?v=Hc79sDi3f0U "Now in Android: 55")
 </div>
