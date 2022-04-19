@@ -3,7 +3,7 @@ This is resfull api authentication with react native
 tabs
 # Look & Feel Of The App:
 
-<div styles="display:flex; column-gap: 3rem;">
+<div>
 <img src="./assets/files/img3.jpeg" width="128"/>
 <img src="./assets/files/img1.jpeg" width="128"/>
 <img src="./assets/files/img2.jpeg" width="128"/>
