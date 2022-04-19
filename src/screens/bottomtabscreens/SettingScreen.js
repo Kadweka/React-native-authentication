@@ -13,7 +13,7 @@ export default SettingScreen
 
 const styles = StyleSheet.create({
   container:{
-    backgroundColor:'#009387',
+    backgroundColor:'#009387r',
     flex:1,
     alignItems:'center',
     justifyContent:'center'
